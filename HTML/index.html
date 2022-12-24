@@ -1,13 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML-CSS-BOOTSTRAP PROJECT</title>
+
+    <!-- link for external style sheet -->
     <link rel="stylesheet" href="../CSS/style.css" type="text/css">
+
+    <!-- Including bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- including font awesome cdn -->
+    <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
 </head>
+
 <body>
-    <h1>bharath reddy</h1>
+
+    <!-- navbar start -->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg bg-light ">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="../images/success.jpg" alt="navbarBrand"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#top">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutus">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#socialmedia">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- navbar end -->
+
+    <!-- Banner section start-->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>BEST DIGITAL AGENCY</h2>
+                    <P>Subscribe the youtube channel to watch more videos on full stack development and startup
+                        ideas...!
+                    </P>
+                    <a href="#" class="play-btn"><i class="fa-solid fa-circle-play"></i>Watch videos</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="../images/success.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Banner section end-->
+
+    <!-- services section start -->
+    <section id="service">
+        <h3 class="title">What we do?</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../images/serviceimage1.jpg" alt="" class="service-image">
+                    <h4>digital media</h4>
+                    <P>Subscribe the youtube channel to watch more videos on full stack development and startup ideas.
+                    </P>
+                </div>
+                <div class="col-md-4">
+                    <img src="../images/serviceimage2.png" alt="" class="service-image">
+                    <h4>web designing</h4>
+                    <P>Subscribe the youtube channel to watch more videos on full stack development and startup ideas.
+                    </P>
+                </div>
+                <div class="col-md-4">
+                    <img src="../images/serviceimage5.jpg" alt="" class="service-image">
+                    <h4>web solutions</h4>
+                    <P>Subscribe the youtube channel to watch more videos on full stack development and startup ideas.
+                    </P>
+                </div>
+            </div>
+            <button class="btn">All services</button>
+        </div>
+    </section>
+    <!-- services section end -->
+
+    <!-- about section start -->
+    <section id="aboutus">
+        <h4 class="title">why choose us?</h4>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>why we're different</h5>
+                    <ul>
+                        <li>believe in doing business with honesty</li>
+                        <li>we protect data from end-to-end</li>
+                        <li>we deliver on time</li>
+                        <li>we create the updated content</li>
+                        <li>user consistency is our priority</li>
+                        <li>we believe in people doing business with good content</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="../images/serviceimage4.jpg" alt="" class="about-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- Testimonials section start -->
+    <section id="testimonials">
+        <h4 class="title">what clients say</h4>
+        <div class="conatiner">
+            <div class="row">
+                <div class="col-md-6 col-lg-4  testimonials">
+                    <P>Subscribe the youtube channel to watch more videos on full stack development and startup ideas
+                        and digital marketing.
+                    </P>
+                    <img src="../images/user1.png" alt="" class="testimonial-image">
+                    <p class="user-details"><b>nikholas</b><br>fFounder of xyz</p>
+                </div>
+                <div class="col-md-6 col-lg-4 testimonials">
+                    <P>Subscribe the youtube channel to watch more videos on full stack development and startup ideas
+                        and digital marketing.
+                    </P>
+                    <img src="../images/user2.png" alt="" class="testimonial-image">
+                    <p class="user-details"><b>nikholas</b><br>Founder of xyz</p>
+                </div>
+                <div class="col-md-6 col-lg-4  testimonials">
+                    <P>Subscribe the youtube channel to watch more videos on full stack development and startup ideas
+                        and digital marketing.
+                    </P>
+                    <img src="../images/user3.png" alt="" class="testimonial-image">
+                    <p class="user-details"><b>nikholas</b><br>Founder of xyz</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Testimonials section end -->
+
+    <!-- social media section start -->
+    <Section id="socialmedia">
+        <div class="container">
+            <h4 class="title" style="color: blue;">Find us on social media</h4>
+            <div class="mediaicons">
+                <a href="#"><img src="../images/fb.png" alt=""></a>
+                <a href="#"><img src="../images/insta.jpg" alt=""></a>
+                <a href="#"><img src="../images/twitter.png" alt=""></a>
+                <a href="#"><img src="../images/whatsapp.jpg" alt=""></a>
+                <a href="#"><img src="../images/tele.png" alt=""></a>
+            </div>
+        </div>
+    </Section>
+    <!-- social media section start -->
+
+    <!-- footer section start -->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../images/success.jpg" alt="">
+                    <p>Subscribe the youtube channel to watch more videos on full stack development and startup ideas
+                        and digital marketing.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>white field Bengalore rood no 4</a><br>
+                    <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+1800989076</a><br>
+                    <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>studentsuccess@gmail.com</a>
+                </div>
+                <div class="col-md-4">
+                    <h5>Subscribe Newsletter</h5>
+                    <input type="text" name="" value="" placeholder="Enter mail"> <br>
+                    <button type="submit" class="footerbutton">subscribe</button>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyrights@studentsuccess.com</p>
+        </div>
+    </section>
+    <!-- footer section end -->
+
+
+    <!-- Including bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,0 +1,267 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    /* position: sticky; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, rgb(12, 21, 12, 0.7), rgb(98.67, 86, 0.6));
+    padding: 0px !important;
+}
+
+.navbar-brand img {
+    width: 80px;
+    height: 40px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    float: right;
+}
+
+.navbar-nav li {
+    padding: 0px;
+    text-align: justify;
+}
+
+.navbar-nav li a {
+    color: white;
+    font-weight: 400;
+}
+
+.navbar-toggler button {
+    border: none !important;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 20px;
+}
+
+/* Banner css*/
+
+#banner {
+    background-image: linear-gradient(to right, rgb(12, 21, 12, 0.7), rgb(98.67, 86, 0.6));
+    padding-top: 100px;
+    text-align: center;
+    /* width: 100%; */
+}
+
+#banner h2 {
+    color: white;
+    margin-top: 50px;
+}
+
+#banner p {
+    color: white;
+    font-size: 15px;
+}
+
+.play-btn {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.play-btn:hover {
+    color: black;
+}
+
+.fa-circle-play {
+    font-size: 30px;
+    color: white;
+    margin-right: 5px;
+}
+
+.img-fluid {
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+
+/* services css */
+
+#service {
+    padding-top: 50px;
+}
+
+.service-image {
+    margin-left: 30px;
+    box-shadow: 0px 0px 6px red;
+}
+
+#service h4 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+#service p {
+    text-align: justify;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration: underline rebeccapurple 3px;
+}
+
+#service .btn {
+    background-color: brown;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 15px;
+    color: white;
+    margin-left: 40%;
+}
+
+#service .btn:hover {
+    background: black;
+}
+
+/* aboutus css */
+
+#aboutus {
+    padding-top: 50px;
+    background: azure;
+    margin-top: 30px;
+}
+
+#aboutus h5 {
+    padding-top: 20px;
+    text-align: left;
+    margin-left: 60px;
+    text-transform: capitalize;
+}
+
+#aboutus ul {
+    margin-left: 50px;
+}
+
+#aboutus ul li {
+    text-transform: capitalize;
+    margin: 6px;
+}
+
+#aboutus .about-image {
+    padding: 40px;
+}
+
+
+/* testimonials css */
+
+#testimonials {
+    margin: 30px;
+    padding-top: 50px;
+
+}
+
+.testimonials {
+    border-left: 4px solid black;
+    margin-top: 230px;
+    margin-bottom: 20px;
+}
+
+.testimonials img {
+    width: 150px;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.user-details {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+/* social media css */
+#socialmedia {
+    background-color: azure;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.mediaicons img {
+    width: 60px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.mediaicons a:hover img {
+    transform: translateY(-10px);
+}
+
+/* footer css */
+#footer {
+    background-color: aqua;
+    margin-top: 30px;
+    position: sticky;
+}
+
+#footer img {
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+    padding: 10px opx;
+}
+
+#footer p {
+    text-align: left;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+#footer a {
+    color: blue;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#footer h5 {
+    padding: 10px 0px;
+}
+
+#footer a:hover {
+    color: black;
+}
+
+.footerbutton {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+
+.footerbutton:hover {
+    color: blue;
+}
+
+.fa-map-marker {
+    color: blue;
+}
+
+hr {
+    color: white;
+    border-width: 2px;
+}
+
+#footer .copyright {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
